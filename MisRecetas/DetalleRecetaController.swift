@@ -2,7 +2,7 @@
 //  DetalleRecetaController.swift
 //  MisRecetas
 //
-//  Created by Andres on 8/4/17.
+//  Created by Andres on 8/26/17.
 //  Copyright © 2017 DstApp. All rights reserved.
 //
 
