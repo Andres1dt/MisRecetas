@@ -15,7 +15,7 @@ class SingleViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var receta = Receta(nombreReceta: "Quesadillas el cuñao", imagen: #imageLiteral(resourceName: "quesadilla"), tiempo : 20, ingredientes:  ["Tortillas", "Queso", "Chorizo","Salsa"], pasos: ["Hacer la tortilla", "Poner el queso y el chorizo en la tortilla", "cocinar la quesadillas"])
+        var receta = Receta(nombreReceta: "Quesadillas", imagen: #imageLiteral(resourceName: "quesadilla"), tiempo : 20, ingredientes:  ["Tortillas", "Queso", "Chorizo","Salsa"], pasos: ["Hacer la tortilla", "Poner el queso y el chorizo en la tortilla", "cocinar la quesadillas"])
         recetas.append(receta)
         
         receta = Receta(nombreReceta: "Pastel de Queso", imagen: #imageLiteral(resourceName: "pastelQueso"), tiempo: 120, ingredientes :["Queso", "Harina", "Huevos", "Leche"], pasos: ["Revolver todo", "Moldear", "Hornear"])
